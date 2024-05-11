@@ -11,9 +11,9 @@
     "require": {
         "brick/phonenumber": "^0.6.0",
         "dougsisk/laravel-country-state": "^4.2",
-        "illuminate/config": "^8.0|^9.0|^10.0",
-        "illuminate/session": "^8.0|^9.0|^10.0",
-        "illuminate/support": "^8.0|^9.0|^10.0",
+        "illuminate/config": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/session": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
         "jenssegers/model": "^1.5",
         "spatie/emoji": "^4.0",
         "symfony/thanks": "^1.2"
