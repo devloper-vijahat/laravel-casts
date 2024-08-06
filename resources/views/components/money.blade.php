@@ -66,7 +66,8 @@
                     });
 
                 if (
-                    (displayValue == '0.00' || displayValue == 0)
+                    (displayValue == '0.00'
+                        || displayValue == 0)
                     && this.value != 0
                 ) {
                     displayValue = null;
