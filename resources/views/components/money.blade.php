@@ -47,10 +47,7 @@
                     }
 
                     self.value = value;
-
-                    if (value != '0.00' || value != 0) {
-                        self.updateDisplayValue();
-                    }
+                    self.updateDisplayValue();
                 });
             },
 
@@ -68,7 +65,10 @@
                         maximumFractionDigits: {{ $decimals }}
                     });
 
-                if (displayValue == '0.00' || displayValue == 0) {
+                if (
+                    (displayValue == '0.00' || displayValue == 0)
+                    && this.value != 0
+                ) {
                     displayValue = null;
                 }
 
